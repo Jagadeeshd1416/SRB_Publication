@@ -1,0 +1,164 @@
+/* =========================================
+   SRB PUBLICATION - DJANGO ADMIN
+   ========================================= */
+
+:root {
+    --srb-navy: #0b2341;
+    --srb-gold: #b8862b;
+    --srb-light: #f7f8fa;
+    --srb-border: #e2e6eb;
+}
+
+/* Header */
+#header {
+    background: var(--srb-navy);
+    color: white;
+    padding: 14px 24px;
+}
+
+/* Site title */
+#site-name a {
+    color: white !important;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* User tools */
+#user-tools {
+    color: white;
+}
+
+#user-tools a {
+    color: #ffffff !important;
+}
+
+/* Main content */
+#content {
+    padding: 25px 30px;
+}
+
+/* Breadcrumbs */
+div.breadcrumbs {
+    background: #f2f4f7;
+    color: var(--srb-navy);
+    padding: 12px 25px;
+    border-bottom: 1px solid var(--srb-border);
+}
+
+div.breadcrumbs a {
+    color: var(--srb-gold);
+}
+
+/* Links */
+a:link,
+a:visited {
+    color: var(--srb-navy);
+}
+
+a:hover {
+    color: var(--srb-gold);
+}
+
+/* Buttons */
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+    background: var(--srb-navy) !important;
+    border-radius: 6px;
+    border: none;
+    color: white !important;
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+.button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.submit-row input:hover,
+a.button:hover {
+    background: var(--srb-gold) !important;
+}
+
+/* Dashboard modules */
+.module {
+    border: 1px solid var(--srb-border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.module h2,
+.module caption {
+    background: var(--srb-navy);
+    color: white;
+    font-weight: 600;
+}
+
+/* Tables */
+#result_list {
+    border: 1px solid var(--srb-border);
+}
+
+#result_list thead th {
+    background: var(--srb-navy);
+    color: white;
+}
+
+#result_list tbody tr:hover {
+    background: #f8f4eb;
+}
+
+/* Form fields */
+input,
+textarea,
+select {
+    border-radius: 6px !important;
+    border: 1px solid #cfd5dc !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--srb-gold) !important;
+    box-shadow: 0 0 0 2px rgba(184, 134, 43, 0.15);
+}
+
+/* Fieldsets */
+fieldset {
+    border: 1px solid var(--srb-border);
+    border-radius: 8px;
+}
+
+/* Messages */
+.messagelist li {
+    border-radius: 6px;
+}
+
+/* Dashboard app labels */
+#content-main .module h2 a {
+    color: white !important;
+}
+
+/* Recent actions */
+#recent-actions-module {
+    border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #content {
+        padding: 15px;
+    }
+
+    #header {
+        padding: 12px 15px;
+    }
+
+    #site-name a {
+        font-size: 18px;
+    }
+}
